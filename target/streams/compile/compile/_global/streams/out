@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /Users/nas/Downloads/TaskTD/src/main/scala/com/tasktd/json/JsonFormatters.scala:26:72 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m  [33mimplicit[0m [33mval[0m [36mpokemonJsonFormat[0m: [35mJsonFormat[0m[[35mPokemonCase[0m] = jsonFormat2(PokemonCase.apply)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                        ^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Found:    ([1m[31mInt[0m, [1m[31mString[0m[1m[31m,[0m[1m[31m [0m[1m[31mInt[0m) => com.tasktd.models.PokemonCase[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Required: ([1m[32mAny[0m, [1m[32mAny[0m) => com.tasktd.models.PokemonCase[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /Users/nas/Downloads/TaskTD/src/main/scala/com/tasktd/json/JsonFormatters.scala:26:90 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m  [33mimplicit[0m [33mval[0m [36mpokemonJsonFormat[0m: [35mJsonFormat[0m[[35mPokemonCase[0m] = jsonFormat2(PokemonCase.apply)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                                          ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                 Cannot find JsonWriter or JsonFormat type class for Any[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
